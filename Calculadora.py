@@ -11,8 +11,4 @@ calculadora.add_command(label="Básica")
 calculadora.add_command(label="Avanzada")
 calculadora.add_command(label="Progreso")
 
-raiz.geometry("350x500")
-
 raiz.mainloop()
-
-
