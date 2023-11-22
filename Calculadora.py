@@ -42,6 +42,7 @@ def calcular():
     salida.insert(tk.END,str(resultado))
 
 #Función encargada de borrar de uno en uno el contenido del entry de entrada y entero el de salida
+#Tiene una función que si ya ha dado un resultado borrará todo del textfield de entrada y de salida
 def borrar():
     entrada.delete((len(entrada.get())-1),tk.END)
     if salida.get()!="":
